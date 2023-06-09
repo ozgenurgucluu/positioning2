@@ -1,0 +1,133 @@
+* {
+  color: var(--text-color);
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+  list-style: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-size: auto;
+  background-color: #1b1b1b;
+}
+
+.container {
+  padding: 30px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.left-box {
+  padding-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: vertical;
+  text-align: right;
+  flex-direction: column;
+  font-size: 100px;
+  height: 90%;
+  width: 40%;
+  font-weight: 900;
+}
+
+.design-trend {
+  font-size: 145px;
+}
+
+.vertical-text {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  height: 90%;
+}
+
+.vertical {
+  position: relative;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+
+}
+
+.line:before {
+  content: "";
+  display: block;
+  position:absolute;
+  width: 130px;
+  left: -7rem;
+  height: 3px;
+  background-color: white;
+  top:50%;
+  
+}
+.line:after {
+  content: "";
+  display: block;
+  position:absolute;
+  width: 500px;
+  right: -30rem;
+  height: 3px;
+  background-color: white;
+  top:50%;
+}
+
+.big-text {
+  padding: 0 16px;
+  font-size: 75px;
+}
+
+.big-text1 {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.small-text {
+  padding: 0 16px;
+  font-size: 20px;
+}
+
+.right-box {
+  padding-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: vertical;
+  text-align: center;
+  flex-direction: column;
+  font-size: 18px;
+  height: 90%;
+  width: 40%;
+  font-weight: 4px;
+  margin-right: 500px;
+}
+
+.text-box p {
+  padding-left: 200px 50px;
+  text-align: justify;
+  margin: 5px;
+  margin-bottom: 20px;
+
+}
+
+.text-box h1 {
+  font-size: 20px;
+  font-weight: 5px;
+  text-align: left;
+
+}
